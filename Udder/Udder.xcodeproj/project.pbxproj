@@ -7,22 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1938EF08273AFCD800FA3C57 /* UdderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1938EF07273AFCD800FA3C57 /* UdderApp.swift */; };
-		1938EF0A273AFCD800FA3C57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1938EF09273AFCD800FA3C57 /* ContentView.swift */; };
-		1938EF0C273AFCD900FA3C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1938EF0B273AFCD900FA3C57 /* Assets.xcassets */; };
-		1938EF0F273AFCD900FA3C57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1938EF0E273AFCD900FA3C57 /* Preview Assets.xcassets */; };
+		1938EF22273AFD4600FA3C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1938EF21273AFD4600FA3C57 /* AppDelegate.swift */; };
+		1938EF24273AFD4600FA3C57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1938EF23273AFD4600FA3C57 /* SceneDelegate.swift */; };
+		1938EF26273AFD4600FA3C57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1938EF25273AFD4600FA3C57 /* ViewController.swift */; };
+		1938EF29273AFD4600FA3C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1938EF27273AFD4600FA3C57 /* Main.storyboard */; };
+		1938EF2B273AFD4600FA3C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1938EF2A273AFD4600FA3C57 /* Assets.xcassets */; };
+		1938EF2E273AFD4600FA3C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1938EF2C273AFD4600FA3C57 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1938EF04273AFCD800FA3C57 /* Udder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1938EF07273AFCD800FA3C57 /* UdderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderApp.swift; sourceTree = "<group>"; };
-		1938EF09273AFCD800FA3C57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1938EF0B273AFCD900FA3C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1938EF0E273AFCD900FA3C57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1938EF1E273AFD4600FA3C57 /* Udder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1938EF21273AFD4600FA3C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1938EF23273AFD4600FA3C57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1938EF25273AFD4600FA3C57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1938EF28273AFD4600FA3C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1938EF2A273AFD4600FA3C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1938EF2D273AFD4600FA3C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1938EF2F273AFD4600FA3C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1938EF01273AFCD800FA3C57 /* Frameworks */ = {
+		1938EF1B273AFD4600FA3C57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,51 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1938EEFB273AFCD800FA3C57 = {
+		1938EF15273AFD4600FA3C57 = {
 			isa = PBXGroup;
 			children = (
-				1938EF06273AFCD800FA3C57 /* Udder */,
-				1938EF05273AFCD800FA3C57 /* Products */,
+				1938EF20273AFD4600FA3C57 /* Udder */,
+				1938EF1F273AFD4600FA3C57 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1938EF05273AFCD800FA3C57 /* Products */ = {
+		1938EF1F273AFD4600FA3C57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1938EF04273AFCD800FA3C57 /* Udder.app */,
+				1938EF1E273AFD4600FA3C57 /* Udder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1938EF06273AFCD800FA3C57 /* Udder */ = {
+		1938EF20273AFD4600FA3C57 /* Udder */ = {
 			isa = PBXGroup;
 			children = (
-				1938EF07273AFCD800FA3C57 /* UdderApp.swift */,
-				1938EF09273AFCD800FA3C57 /* ContentView.swift */,
-				1938EF0B273AFCD900FA3C57 /* Assets.xcassets */,
-				1938EF0D273AFCD900FA3C57 /* Preview Content */,
+				1938EF21273AFD4600FA3C57 /* AppDelegate.swift */,
+				1938EF23273AFD4600FA3C57 /* SceneDelegate.swift */,
+				1938EF25273AFD4600FA3C57 /* ViewController.swift */,
+				1938EF27273AFD4600FA3C57 /* Main.storyboard */,
+				1938EF2A273AFD4600FA3C57 /* Assets.xcassets */,
+				1938EF2C273AFD4600FA3C57 /* LaunchScreen.storyboard */,
+				1938EF2F273AFD4600FA3C57 /* Info.plist */,
 			);
 			path = Udder;
-			sourceTree = "<group>";
-		};
-		1938EF0D273AFCD900FA3C57 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1938EF0E273AFCD900FA3C57 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1938EF03273AFCD800FA3C57 /* Udder */ = {
+		1938EF1D273AFD4600FA3C57 /* Udder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1938EF12273AFCD900FA3C57 /* Build configuration list for PBXNativeTarget "Udder" */;
+			buildConfigurationList = 1938EF32273AFD4600FA3C57 /* Build configuration list for PBXNativeTarget "Udder" */;
 			buildPhases = (
-				1938EF00273AFCD800FA3C57 /* Sources */,
-				1938EF01273AFCD800FA3C57 /* Frameworks */,
-				1938EF02273AFCD800FA3C57 /* Resources */,
+				1938EF1A273AFD4600FA3C57 /* Sources */,
+				1938EF1B273AFD4600FA3C57 /* Frameworks */,
+				1938EF1C273AFD4600FA3C57 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = Udder;
 			productName = Udder;
-			productReference = 1938EF04273AFCD800FA3C57 /* Udder.app */;
+			productReference = 1938EF1E273AFD4600FA3C57 /* Udder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1938EEFC273AFCD800FA3C57 /* Project object */ = {
+		1938EF16273AFD4600FA3C57 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					1938EF03273AFCD800FA3C57 = {
+					1938EF1D273AFD4600FA3C57 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 1938EEFF273AFCD800FA3C57 /* Build configuration list for PBXProject "Udder" */;
+			buildConfigurationList = 1938EF19273AFD4600FA3C57 /* Build configuration list for PBXProject "Udder" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 1938EEFB273AFCD800FA3C57;
-			productRefGroup = 1938EF05273AFCD800FA3C57 /* Products */;
+			mainGroup = 1938EF15273AFD4600FA3C57;
+			productRefGroup = 1938EF1F273AFD4600FA3C57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1938EF03273AFCD800FA3C57 /* Udder */,
+				1938EF1D273AFD4600FA3C57 /* Udder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1938EF02273AFCD800FA3C57 /* Resources */ = {
+		1938EF1C273AFD4600FA3C57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1938EF0F273AFCD900FA3C57 /* Preview Assets.xcassets in Resources */,
-				1938EF0C273AFCD900FA3C57 /* Assets.xcassets in Resources */,
+				1938EF2E273AFD4600FA3C57 /* LaunchScreen.storyboard in Resources */,
+				1938EF2B273AFD4600FA3C57 /* Assets.xcassets in Resources */,
+				1938EF29273AFD4600FA3C57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1938EF00273AFCD800FA3C57 /* Sources */ = {
+		1938EF1A273AFD4600FA3C57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1938EF0A273AFCD800FA3C57 /* ContentView.swift in Sources */,
-				1938EF08273AFCD800FA3C57 /* UdderApp.swift in Sources */,
+				1938EF26273AFD4600FA3C57 /* ViewController.swift in Sources */,
+				1938EF22273AFD4600FA3C57 /* AppDelegate.swift in Sources */,
+				1938EF24273AFD4600FA3C57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		1938EF27273AFD4600FA3C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1938EF28273AFD4600FA3C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1938EF2C273AFD4600FA3C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1938EF2D273AFD4600FA3C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		1938EF10273AFCD900FA3C57 /* Debug */ = {
+		1938EF30273AFD4600FA3C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		1938EF11273AFCD900FA3C57 /* Release */ = {
+		1938EF31273AFD4600FA3C57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,20 +282,19 @@
 			};
 			name = Release;
 		};
-		1938EF13273AFCD900FA3C57 /* Debug */ = {
+		1938EF33273AFD4600FA3C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Udder/Preview Content\"";
 				DEVELOPMENT_TEAM = 49JJZCQ9WQ;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Udder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,20 +310,19 @@
 			};
 			name = Debug;
 		};
-		1938EF14273AFCD900FA3C57 /* Release */ = {
+		1938EF34273AFD4600FA3C57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Udder/Preview Content\"";
 				DEVELOPMENT_TEAM = 49JJZCQ9WQ;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Udder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1938EEFF273AFCD800FA3C57 /* Build configuration list for PBXProject "Udder" */ = {
+		1938EF19273AFD4600FA3C57 /* Build configuration list for PBXProject "Udder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1938EF10273AFCD900FA3C57 /* Debug */,
-				1938EF11273AFCD900FA3C57 /* Release */,
+				1938EF30273AFD4600FA3C57 /* Debug */,
+				1938EF31273AFD4600FA3C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1938EF12273AFCD900FA3C57 /* Build configuration list for PBXNativeTarget "Udder" */ = {
+		1938EF32273AFD4600FA3C57 /* Build configuration list for PBXNativeTarget "Udder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1938EF13273AFCD900FA3C57 /* Debug */,
-				1938EF14273AFCD900FA3C57 /* Release */,
+				1938EF33273AFD4600FA3C57 /* Debug */,
+				1938EF34273AFD4600FA3C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1938EEFC273AFCD800FA3C57 /* Project object */;
+	rootObject = 1938EF16273AFD4600FA3C57 /* Project object */;
 }
